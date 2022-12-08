@@ -1,0 +1,38 @@
+html{
+    background-color: bisque;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    border: 2px solid black;
+}
+.upper{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.middle{
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.lower{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#convert{
+    width: 50%;
+}
+#swap{
+    width: 50%;
+}
