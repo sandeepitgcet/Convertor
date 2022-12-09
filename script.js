@@ -14,11 +14,26 @@ document.getElementById("swap").addEventListener("click",function(){
 
     
 });
-document.getElementById("from").addEventListener("onchange",function(){
-
+document.getElementById("from").addEventListener("change",function(){
+    result.value="";
+    if(!value.value==""){
+        let res=AnyToAny();
+        if(result!=NaN){
+            result.value=res;
+        }
+    }
+});
+document.getElementById("to").addEventListener("change",function(){
+    result.value="";
+    if(!value.value==""){
+        let res=AnyToAny();
+        if(result!=NaN){
+            result.value=res;
+        }
+    }
 });
 document.getElementById("convert").addEventListener("click",function(){
-    
+    result.value="";
     if(isValid()){
         AnyToAny();
     }else{
@@ -54,5 +69,6 @@ function AnyToAny(){
     }
     let decimal = parseInt(value.value, base).toString(radix);
     result.value = decimal;
+    return result.value;
 }
 

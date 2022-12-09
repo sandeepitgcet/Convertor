@@ -8,25 +8,86 @@
     <link rel="stylesheet" href="stylr.css">
 </head>
 <body>
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
     <div class="container">
+        <h1 class="heading">Conversion</h1>
         <div class="upper">
-            <label for="from">From</label>
-            <select id="from">
-                <option value="binary">Binary</option>
-                <option value="decimal">Decimal</option>
-                <option value="octal">Octal</option>
-                <option value="hexadecimal">HexaDecimal</option>
-            </select>
-            <label for="to">To</label>
-            <select id="to">
-                <option value="binary">Binary</option>
-                <option value="decimal">Decimal</option>
-                <option value="octal">Octal</option>
-                <option value="hexadecimal">HexaDecimal</option>
-            </select>
+            <div class="select-from">
+                <label for="from">From </label>
+                <select id="from">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binary</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexadecimal">HexaDecimal</option>
+                </select>
+            </div>
+            
+            <span id="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div class="select-to">
+                <label for="to">To </label>
+                <select id="to">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binary</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexadecimal">HexaDecimal</option>
+                </select>
+            </div>
+            
         </div>
         <div class="middle">
             <input id="value" placeholder="Enter Value"/>
+            <span id="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <input id="result" placeholder="Output" disabled/>
         </div>
         <div class="lower">
